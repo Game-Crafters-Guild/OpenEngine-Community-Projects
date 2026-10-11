@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 3,
+  "materialName": "Terrain FPS - Projectile",
+  "lightingModel": "StandardPBR",
+  "alphaMode": "Opaque",
+  "doubleSided": false,
+  "surfaceShader": "Surfaces/standard_pbr.glsl",
+  "properties": {
+    "baseColor": [
+      0.95,
+      0.75,
+      0.15,
+      1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.3
+  },
+  "textures": {}
+}

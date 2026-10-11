@@ -104,7 +104,7 @@ void FirstPersonSystem::OnUpdate(ECS::World& world, float dt)
     Look(dt);
     Walk(world);
     AimCamera(world);
-    if (KeyPressed(input, Input::kKeyCode_F) || (input && input->WasMouseButtonPressed(Input::kMouseButton_Left)))
+    if (KeyPressed(input, Input::kKeyCode_F))
         Fire(world);
     if (KeyPressed(input, Input::kKeyCode_N))
         Reseed(world);

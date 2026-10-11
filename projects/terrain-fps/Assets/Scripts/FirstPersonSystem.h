@@ -12,10 +12,10 @@
 //
 // The "Player" entity carries a CharacterController (the capsule); the "Main Camera"
 // entity follows its eye and looks around. WASD walks, Shift runs, Space jumps, the
-// right mouse button held (or the arrow keys) looks, the left mouse button (or F)
-// fires a ray that pushes any physics body it hits; the first hit on an FpsTarget
-// scores. N grows a new landscape by reseeding the "Hills" noise. The look starts
-// where the scene's camera looks.
+// right mouse button held (or the arrow keys) looks, F fires a ray that pushes any
+// physics body it hits; the first hit on an FpsTarget scores. N grows a new landscape
+// by reseeding the "Hills" noise. The look starts where the scene's camera looks.
+// The left mouse button fires balls: ProjectileLauncherSystem.
 struct FirstPersonSystem : ECS::SystemBase
 {
     void OnStart(ECS::World& world);

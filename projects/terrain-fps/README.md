@@ -1,7 +1,8 @@
 # Terrain FPS
 
 Walk a randomly generated landscape in first person and knock over stacks of crates
-with a hitscan gun. Every press of Play grows a new landscape.
+with a hitscan gun or a stream of bouncing balls. Every press of Play grows a new
+landscape.
 
 ![Terrain FPS](thumbnail.png)
 
@@ -16,10 +17,11 @@ with a hitscan gun. Every press of Play grows a new landscape.
 | Shift | Run |
 | Space | Jump |
 | Right mouse button held, or the arrow keys | Look around |
-| Left mouse button, or F | Shoot |
+| Left mouse button held | Fire balls |
+| F | Shoot (hitscan) |
 | N | Grow a new landscape |
 
-Crates score 1 point and the red boxes on top score 3, on the first hit each.
+Crates score 1 point and the red boxes on top score 3, on the first hitscan hit each.
 
 ## How it is made
 
@@ -35,7 +37,13 @@ Crates score 1 point and the red boxes on top score 3, on the first hit each.
 - **Gun**: a physics ray cast from the eye (`PhysicsWorld::RayCast`); a hit on a
   dynamic body gets an impulse at the hit point, and a hit on an `FpsTarget`
   (`Assets/Scripts/FpsTarget.h`) scores its `Points`.
-- **Gameplay**: one C++ system, `Assets/Scripts/FirstPersonSystem.cpp`.
+- **Balls**: `Assets/Scripts/ProjectileLauncherSystem.cpp` spawns a small sphere entity
+  at the eye with a dynamic Jolt body whose initial velocity points along the view,
+  four a second while the button is held. The balls fall, bounce and roll on the
+  terrain and push the crates; a `Projectile` component (`Assets/Scripts/Projectile.h`)
+  counts down their six seconds.
+- **Gameplay**: the walking, the look and the hitscan gun are one C++ system,
+  `Assets/Scripts/FirstPersonSystem.cpp`.
 - **HUD**: `Assets/UI/Hud.uxml` and `Hud.css`, mounted by a UIDocument.
 
 The pointer is not captured during play, so the look follows a right-button drag.
