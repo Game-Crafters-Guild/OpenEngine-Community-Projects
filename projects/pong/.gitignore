@@ -1,0 +1,11 @@
+# Editor-generated data: rebuilt when the project opens.
+.Editor/
+.Cache/
+AssetDatabase.assetdb
+ScriptAssemblies/
+GameEngine.Scripts.csproj
+coreclrhost-debug.txt
+*.log
+
+# Editor-generated build project for the C++ scripts.
+/Assets/CMakeLists.txt

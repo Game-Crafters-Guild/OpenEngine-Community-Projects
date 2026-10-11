@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 3,
+  "materialName": "Pong - PaddleRight",
+  "lightingModel": "StandardPBR",
+  "alphaMode": "Opaque",
+  "doubleSided": false,
+  "surfaceShader": "Surfaces/standard_pbr.glsl",
+  "properties": {
+    "baseColor": [
+      0.95,
+      0.35,
+      0.25,
+      1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.35
+  },
+  "textures": {}
+}

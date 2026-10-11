@@ -28,6 +28,20 @@
         "url": "https://github.com/Game-Crafters-Guild/OpenEngine-Community-Projects",
         "path": "projects/breakout"
       }
+    },
+    {
+      "id": "pong",
+      "name": "Pong",
+      "description": "Two paddles, a Jolt-physics ball and goal triggers; play the computer or a friend. Gameplay in one C++ system.",
+      "author": "Game Crafters Guild",
+      "engineVersion": "2026.10.0-alpha.4",
+      "thumbnail": "projects/pong/thumbnail.png",
+      "accentColor": "#1F5B4A",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Game-Crafters-Guild/OpenEngine-Community-Projects",
+        "path": "projects/pong"
+      }
     }
   ]
 }

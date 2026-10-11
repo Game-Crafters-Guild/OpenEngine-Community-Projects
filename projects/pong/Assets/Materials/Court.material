@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 3,
+  "materialName": "Pong - Court",
+  "lightingModel": "StandardPBR",
+  "alphaMode": "Opaque",
+  "doubleSided": false,
+  "surfaceShader": "Surfaces/standard_pbr.glsl",
+  "properties": {
+    "baseColor": [
+      0.05,
+      0.18,
+      0.12,
+      1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.85
+  },
+  "textures": {}
+}
