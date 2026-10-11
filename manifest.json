@@ -3,19 +3,6 @@
   "name": "OpenEngine Community Projects",
   "projects": [
     {
-      "id": "sphere-field",
-      "name": "Sphere Field",
-      "description": "A lit sample scene: five spheres on a ground plane with sky, physics, and a reflection probe.",
-      "author": "Game Crafters Guild",
-      "engineVersion": "1.0",
-      "thumbnail": "projects/sphere-field/thumbnail.png",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/Game-Crafters-Guild/OpenEngine-Community-Projects",
-        "path": "projects/sphere-field"
-      }
-    },
-    {
       "id": "breakout",
       "name": "Breakout",
       "description": "A 3D Breakout: a paddle, a Jolt-physics ball and a wall of fifty bricks. Gameplay in one C++ system.",
