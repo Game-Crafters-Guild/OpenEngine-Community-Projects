@@ -42,6 +42,20 @@
         "url": "https://github.com/Game-Crafters-Guild/OpenEngine-Community-Projects",
         "path": "projects/pong"
       }
+    },
+    {
+      "id": "terrain-fps",
+      "name": "Terrain FPS",
+      "description": "First-person walking on a randomly generated terrain, with a hitscan gun and crates to knock over. Gameplay in one C++ system.",
+      "author": "Game Crafters Guild",
+      "engineVersion": "2026.10.0-alpha.4",
+      "thumbnail": "projects/terrain-fps/thumbnail.png",
+      "accentColor": "#3C765D",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Game-Crafters-Guild/OpenEngine-Community-Projects",
+        "path": "projects/terrain-fps"
+      }
     }
   ]
 }

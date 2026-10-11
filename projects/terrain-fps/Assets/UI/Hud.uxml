@@ -1,0 +1,6 @@
+<uielement id="hud-root" class="hud-root">
+    <label id="crosshair" class="crosshair" text="+" />
+    <label id="score-label" class="hud-stat hud-left" text="Score 0" />
+    <label id="seed-label" class="hud-stat hud-right" text="" />
+    <label id="help-label" class="help" text="WASD walk   Shift run   Space jump   hold right mouse or arrows to look   left click or F to shoot   N new landscape" />
+</uielement>
