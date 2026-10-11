@@ -14,6 +14,20 @@
         "url": "https://github.com/Game-Crafters-Guild/OpenEngine-Community-Projects",
         "path": "projects/sphere-field"
       }
+    },
+    {
+      "id": "breakout",
+      "name": "Breakout",
+      "description": "A 3D Breakout: a paddle, a Jolt-physics ball and a wall of fifty bricks. Gameplay in one C++ system.",
+      "author": "Game Crafters Guild",
+      "engineVersion": "2026.10.0-alpha.4",
+      "thumbnail": "projects/breakout/thumbnail.png",
+      "accentColor": "#2E3A66",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Game-Crafters-Guild/OpenEngine-Community-Projects",
+        "path": "projects/breakout"
+      }
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 3,
+  "materialName": "Breakout - Paddle",
+  "lightingModel": "StandardPBR",
+  "alphaMode": "Opaque",
+  "doubleSided": false,
+  "surfaceShader": "Surfaces/standard_pbr.glsl",
+  "properties": {
+    "baseColor": [
+      0.85,
+      0.87,
+      0.92,
+      1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.3
+  },
+  "textures": {}
+}

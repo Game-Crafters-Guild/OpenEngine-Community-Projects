@@ -1,0 +1,5 @@
+<uielement id="hud-root" class="hud-root">
+    <label id="score-label" class="hud-stat hud-left" text="Score 0" />
+    <label id="lives-label" class="hud-stat hud-right" text="Lives 3" />
+    <label id="prompt-label" class="hud-prompt" text="" />
+</uielement>

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 3,
+  "materialName": "Breakout - BrickRed",
+  "lightingModel": "StandardPBR",
+  "alphaMode": "Opaque",
+  "doubleSided": false,
+  "surfaceShader": "Surfaces/standard_pbr.glsl",
+  "properties": {
+    "baseColor": [
+      0.8,
+      0.12,
+      0.1,
+      1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.45
+  },
+  "textures": {}
+}
