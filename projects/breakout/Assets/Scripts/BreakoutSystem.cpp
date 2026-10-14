@@ -11,6 +11,7 @@
 #include "PhysicsECS/Components/PhysicsBody.h"
 #include "PhysicsECS/PhysicsEntityEventCallbacks.h"
 #include "PhysicsECS/PhysicsWorldService.h"
+#include "Types/StringId.h"
 #include "UI/Controls/Label.h"
 
 #include <algorithm>
@@ -78,7 +79,7 @@ bool KeyPressed(Input::InputSystem* input, int key)
 
 void SetLabelText(const char* id, const std::string& text)
 {
-    if (auto* label = dynamic_cast<Label*>(GameUI::FindElementByIdAny(id)))
+    if (auto* label = dynamic_cast<Label*>(GameUI::FindElementByIdAny(HashStringId(id))))
         label->SetText(text);
 }
 } // namespace
