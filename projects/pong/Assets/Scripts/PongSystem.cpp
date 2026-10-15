@@ -82,9 +82,9 @@ bool KeyPressed(Input::InputSystem* input, int key)
     return input && input->WasKeyPressed(key);
 }
 
-void SetLabelText(const char* id, const std::string& text)
+void SetLabelText(StringId id, const std::string& text)
 {
-    if (auto* label = dynamic_cast<Label*>(GameUI::FindElementByIdAny(HashStringId(id))))
+    if (auto* label = dynamic_cast<Label*>(GameUI::FindElementById(id)))
         label->SetText(text);
 }
 
@@ -323,8 +323,8 @@ void PongSystem::UpdateHud()
     if (shown == m_ShownHud)
         return;
     m_ShownHud = shown;
-    SetLabelText("left-score", std::to_string(m_LeftScore));
-    SetLabelText("right-score", std::to_string(m_RightScore));
-    SetLabelText("prompt-label", prompt);
-    SetLabelText("mode-label", mode);
+    SetLabelText("left-score"_sid, std::to_string(m_LeftScore));
+    SetLabelText("right-score"_sid, std::to_string(m_RightScore));
+    SetLabelText("prompt-label"_sid, prompt);
+    SetLabelText("mode-label"_sid, mode);
 }
