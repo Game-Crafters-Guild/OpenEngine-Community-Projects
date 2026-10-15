@@ -54,9 +54,9 @@ bool KeyPressed(Input::InputSystem* input, int key)
     return input && input->WasKeyPressed(key);
 }
 
-void SetLabelText(const char* id, const std::string& text)
+void SetLabelText(StringId id, const std::string& text)
 {
-    if (auto* label = dynamic_cast<Label*>(GameUI::FindElementByIdAny(HashStringId(id))))
+    if (auto* label = dynamic_cast<Label*>(GameUI::FindElementById(id)))
         label->SetText(text);
 }
 
@@ -256,6 +256,6 @@ void FirstPersonSystem::UpdateHud()
     if (shown == m_ShownHud)
         return;
     m_ShownHud = shown;
-    SetLabelText("score-label", score);
-    SetLabelText("seed-label", seed);
+    SetLabelText("score-label"_sid, score);
+    SetLabelText("seed-label"_sid, seed);
 }
