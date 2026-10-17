@@ -7,7 +7,7 @@
       "name": "Breakout",
       "description": "A 3D Breakout: a paddle, a Jolt-physics ball and a wall of fifty bricks. Gameplay in one C++ system.",
       "author": "Game Crafters Guild",
-      "engineVersion": "2026.10.0-alpha.4",
+      "engineVersion": "2026.10.0-alpha.6",
       "thumbnail": "projects/breakout/thumbnail.png",
       "accentColor": "#2E3A66",
       "source": {
@@ -21,7 +21,7 @@
       "name": "Pong",
       "description": "Two paddles, a Jolt-physics ball and goal triggers; play the computer or a friend. Gameplay in one C++ system.",
       "author": "Game Crafters Guild",
-      "engineVersion": "2026.10.0-alpha.4",
+      "engineVersion": "2026.10.0-alpha.6",
       "thumbnail": "projects/pong/thumbnail.png",
       "accentColor": "#1F5B4A",
       "source": {
@@ -35,7 +35,7 @@
       "name": "Terrain FPS",
       "description": "First-person walking on a randomly generated terrain, with a hitscan gun and crates to knock over. Gameplay in one C++ system.",
       "author": "Game Crafters Guild",
-      "engineVersion": "2026.10.0-alpha.4",
+      "engineVersion": "2026.10.0-alpha.6",
       "thumbnail": "projects/terrain-fps/thumbnail.png",
       "accentColor": "#3C765D",
       "source": {
