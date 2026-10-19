@@ -95,7 +95,7 @@ Terrain.samplesPerMeter = 2
 Terrain.domain = 0
 Terrain.targetPixelError = 11
 Terrain.materialTiling = 10
-Terrain.renderLayerMask = 1
+Terrain.renderLayers = [0]
 Terrain.castShadows = true
 Terrain.receiveShadows = true
 TerrainGrass.renderMode = Dither
@@ -269,11 +269,11 @@ Camera.fovY = 60
 Camera.orthographicSize = 10
 Camera.nearZ = 0.01
 Camera.farZ = 1000
-Camera.cullingMask = 4294967295
+Camera.visibleLayers = all
 Camera.postProcessProfileId = 0
 Camera.msaaSamples = 0
 Camera.antiAliasing = 0
-Camera.postProcessMask = 4294967295
+Camera.volumeLayers = all
 Camera.aspectPreset = 0
 Camera.customAspectWidth = 16
 Camera.customAspectHeight = 9
@@ -300,7 +300,7 @@ HierarchyOrder.order = 160
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -331,7 +331,7 @@ HierarchyOrder.order = 170
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -362,7 +362,7 @@ HierarchyOrder.order = 180
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -393,7 +393,7 @@ HierarchyOrder.order = 190
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -424,7 +424,7 @@ HierarchyOrder.order = 200
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -455,7 +455,7 @@ HierarchyOrder.order = 210
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Target.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -486,7 +486,7 @@ HierarchyOrder.order = 220
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -517,7 +517,7 @@ HierarchyOrder.order = 230
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -548,7 +548,7 @@ HierarchyOrder.order = 240
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -579,7 +579,7 @@ HierarchyOrder.order = 250
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -610,7 +610,7 @@ HierarchyOrder.order = 260
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -641,7 +641,7 @@ HierarchyOrder.order = 270
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Target.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -672,7 +672,7 @@ HierarchyOrder.order = 280
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -703,7 +703,7 @@ HierarchyOrder.order = 290
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -734,7 +734,7 @@ HierarchyOrder.order = 300
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -765,7 +765,7 @@ HierarchyOrder.order = 310
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -796,7 +796,7 @@ HierarchyOrder.order = 320
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
@@ -827,7 +827,7 @@ HierarchyOrder.order = 330
 MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Target.material"]
 MeshRenderer.enabled = true
-MeshRenderer.renderLayerMask = 1
+MeshRenderer.renderLayers = [0]
 MeshRenderer.castShadows = true
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
