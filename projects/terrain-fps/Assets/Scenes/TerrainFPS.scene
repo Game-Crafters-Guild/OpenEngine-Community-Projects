@@ -106,10 +106,8 @@ TerrainGrass.placementSeed = 3
 TerrainGrass.clumpSize = 1.1
 TerrainGrass.clumpHeightVariance = 0.3
 TerrainGrass.clumpAlignment = 0.45
-TerrainGrass.clumpGather = 0.25
 TerrainGrass.bladeHeight = 0.45
 TerrainGrass.bladeWidth = 0.043
-TerrainGrass.maxWidthRatio = 0.06
 TerrainGrass.bladeSegments = 5
 TerrainGrass.randomScale = 0.35
 TerrainGrass.layerIndex = 0
@@ -125,11 +123,8 @@ TerrainGrass.windSeed = 3
 TerrainGrass.brightness = 1
 TerrainGrass.randomBrightness = 0.42
 TerrainGrass.hueVariation = 0.45
-TerrainGrass.rootShade = 0.82
 TerrainGrass.rootFadeStart = 0
 TerrainGrass.rootFadeEnd = 1
-TerrainGrass.bladeNormalForm = 0.75
-TerrainGrass.bladeScatterGain = 0.6
 TerrainGrass.groundingStrength = 1
 TerrainGrass.translucency = 0.35
 TerrainGrass.textureGrass = false
@@ -301,7 +296,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -332,7 +327,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -363,7 +358,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -394,7 +389,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -425,7 +420,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -456,7 +451,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Target.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -487,7 +482,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -518,7 +513,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -549,7 +544,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -580,7 +575,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -611,7 +606,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -642,7 +637,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Target.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -673,7 +668,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -704,7 +699,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -735,7 +730,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -766,7 +761,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -797,7 +792,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Crate.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -828,7 +823,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Target.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true

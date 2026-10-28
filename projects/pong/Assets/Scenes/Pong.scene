@@ -101,7 +101,7 @@ MeshRenderer.meshPrimitive = Plane
 MeshRenderer.material = [path="Materials/Court.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 Name.value = "Court"
@@ -115,7 +115,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Line.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 Name.value = "Center Line"
@@ -129,7 +129,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Line.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 Name.value = "Center Line"
@@ -143,7 +143,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Line.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 Name.value = "Center Line"
@@ -157,7 +157,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Line.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 Name.value = "Center Line"
@@ -171,7 +171,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Line.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 Name.value = "Center Line"
@@ -185,7 +185,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Line.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 Name.value = "Center Line"
@@ -199,7 +199,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Line.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 Name.value = "Center Line"
@@ -213,7 +213,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Line.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 Name.value = "Center Line"
@@ -227,7 +227,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Line.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 Name.value = "Center Line"
@@ -241,7 +241,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Wall.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -271,7 +271,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/Wall.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -301,7 +301,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/PaddleLeft.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -331,7 +331,7 @@ MeshRenderer.meshPrimitive = Cube
 MeshRenderer.material = [path="Materials/PaddleRight.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
@@ -361,7 +361,7 @@ MeshRenderer.meshPrimitive = Sphere
 MeshRenderer.material = [path="Materials/Ball.material"]
 MeshRenderer.enabled = true
 MeshRenderer.renderLayers = [0]
-MeshRenderer.castShadows = true
+MeshRenderer.shadowCasting = On
 MeshRenderer.receiveShadows = true
 MeshRenderer.motionVectors = true
 PhysicsBody.enabled = true
